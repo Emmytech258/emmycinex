@@ -1,16 +1,47 @@
-# React + Vite
+# EmmyCinex 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I built EmmyCinex as a personal project to sharpen my React JS skills. It's a movie discovery app inspired by Netflix. you can search for movies, explore what's trending, watch trailers, check out the cast, and save movies to your own watchlist.
 
-Currently, two official plugins are available:
+Live Demo: https://emmycinex.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## What it does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Browse trending, popular, top rated and upcoming movies on the homepage
+- Search for any movie by title
+- Click on any movie to see full details — overview, cast, trailer, budget, and similar movies
+- Add movies to your watchlist and they stay saved even when you close the browser
+- Works well on mobile, tablet and desktop
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built with
+
+- React JS — component structure, useState, useEffect, Context API, custom hooks
+- React Router DOM — for navigating between pages
+- Tailwind CSS — for styling
+- Axios — for API requests
+- TMDB API — for all the movie data
+- Vite — as the build tool
+
+---
+
+## Run it locally
+
+```bash
+git clone https://github.com/Emmytech258/emmycinex.git
+cd emmycinex
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.
+
+---
+
+## About me
+
+I'm Emmanuel Ibitayo, a Frontend Developer from Nigeria passionate about building clean, user-focused web experiences.
+
+GitHub: https://github.com/Emmytech258
